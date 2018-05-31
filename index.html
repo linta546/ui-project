@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Bootsrap Simply-me</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css.css">  
+    </head>
+   
+
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="30" >
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">            
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">ME</a>
+                </div>
+                <div class="navbar navbar-collaspe" id="mynavbar">
+                    <ui class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ui>
+                </div>
+            </div>
+        </nav>
+
+    <div id="home" class="container-fluid bg-1 text-center active">
+        <h3>who i am?</h3>
+        <img src="i_love_webdesign_wallpaper_by_niacindes.jpg" alt="me" class="img-circle" width="350" height="350">
+        <h3>I am web Designer</h3>
+    </div>
+
+    <div id="about" class="Container-fluid bg-2 text-center ">
+        <h3>what i can do?</h3> 
+        <p>I can design your need</p>
+             <a href="#" class="btn btn-default btn-lg">
+                <span class="glyphicon glyphicon-search"></span> Search
+              </a>
+    </div> 
+    
+    <div id="contact" class="container-fluid bg-3">
+        <h3>where to find me?</h3>
+        <div class="row">
+            <div class="col-sm-4" >
+                <p id="ad"><b>ADDRESS</b></p>
+                <p>Ring Road,Lohiya Ward,Hanuman Nagar,Gondai</p>
+            </div>
+            <div class="col-sm-4">
+                <p id="cn"><b>CONTACT</b></p>
+                <p>Email: chaidharilinta@gmail.com</p>
+                <p>Mob no.:915439088</p>
+            </div>
+            <div class="col-sm-4">
+                <p id="wr"><b>WRITE US</b></p>
+                <form action="">
+                    <div class="form-group">
+                        <lable for="name">Name</lable>
+                        <input type="text" class="form-control" id="name" >
+                    </div>
+                    <div class="form-group">
+                        <lable for="email">Email</lable>
+                        <input type="email" class="form-control" id="email" >
+                    </div>
+                    <div class="form-group">
+                        <lable for="message">Messsage</lable>
+                        <textarea class="form-control" rows="3" id="message" ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+ <style>
+         .navbar{
+             padding-top:5px;
+             padding-bottom:5px;
+             border: 0;
+             border-radius:0;
+             margin-bottom:0;
+             font-size:14px;
+             letter-spacing:5px;
+         }
+         navbar-nav li a:hover{
+             color:white !important;
+         }
+         .navbar-nav li a:hover, .navbar-nav li.active a {
+            color: #f4511e !important;
+            background-color: #fff !important;
+         }
+         .navbar-default .navbar-toggle {
+            border-color: transparent;
+            color: #fff !important;
+        }
+         .bg-1{
+            background-color:rgb(104, 15, 104);
+            color:black;  
+            
+        }
+        .bg-2{
+            background-color: gray;
+            color: white;   
+            
+        }
+        .bg-3{
+            background-color:whitesmoke;
+            color:black;
+           
+        }
+        .container-fluid{
+            padding-top:70px;
+            padding-bottom:70px;
+        }
+        .col-sm-4{
+            color:black;
+            border: 10px;
+        }
+
+        h3,p{
+            text-align: center;
+        }
+        
+    
+    </style>
